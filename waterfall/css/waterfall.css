@@ -1,0 +1,16 @@
+.fall{
+	/*去掉ul默认的margin和padding*/
+	margin:0;
+	padding:0;
+	width:100%;
+	position:relative;
+}
+.fall li{
+	/*去掉li默认的margin和padding*/
+	margin:0;
+	padding:0;
+	position:absolute;
+	list-style: none;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}

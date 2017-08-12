@@ -1,0 +1,29 @@
+#box {
+	position: fixed;
+	left: 100px;
+	top: 100px;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	width: 400px;
+	height: 300px;
+}
+
+#title {
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	background: #aaa;
+	color: #fff;
+	padding: 0 10px;
+	box-sizing: border-box;
+	cursor: move;
+}
+
+#title span:last-child {
+	float: right;
+	cursor: pointer;
+}
+
+#out {
+	height: 2000px;
+}

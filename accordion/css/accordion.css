@@ -1,0 +1,49 @@
+#box {
+	width: 1200px;
+	height: 400px;
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+}
+
+.img {
+	position: absolute;
+	top: 0;
+}
+
+#img1 {
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+#img2 {
+	left: 240px;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+
+#img3 {
+	left: 480px;
+	width: 100%;
+	height: 100%;
+	z-index: 3;
+}
+
+#img4 {
+	left: 720px;
+	width: 100%;
+	height: 100%;
+	z-index: 4;
+}
+
+#img5 {
+	left: 960px;
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+}

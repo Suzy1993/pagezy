@@ -1,0 +1,38 @@
+#nav {
+	margin: 50px;
+	width: 400px;
+	height: 35px;
+	border-radius: 5px;
+	background: #ccc;
+	position: relative;
+}
+
+#nav #cloud {
+	width: 100px;
+	height: 64px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: url(../images/cloud.png);
+}
+
+#nav ul, nav li {
+	position: relative;
+	z-index: 100;
+	margin: 0;
+	padding: 0;
+}
+
+#nav li {
+	width: 100px;
+	height: 35px;
+	cursor: pointer;
+	float: left;
+	line-height: 35px;
+	text-align: center;
+	list-style: none;
+}
+
+#nav li:hover {
+	color: #fff;
+}

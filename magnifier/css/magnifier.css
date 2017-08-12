@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+img {
+	width: 350px;
+	height: 300px;
+}
+
+#small_area {
+	position: relative;
+	width: 350px;
+	height: 300px;
+	float: left;
+	margin: 50px;
+}
+
+#magnifier {
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	filter: opacity(alpha: 30);
+	opacity: 0.3;
+	position: absolute;
+	display: none;
+}
+
+#big {
+	background-image: url(images/big.png);
+	width: 700px;
+	height: 600px;
+	position: relative;
+}
+
+#big_area {
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	opacity: 1;
+	filter: opacity(alpha: 1);
+	overflow: hidden;
+	display: none;
+	float: left;
+	margin: 50px;
+}
